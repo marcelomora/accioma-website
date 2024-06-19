@@ -3,10 +3,10 @@ items:
   - title: Implementación Odoo
     subtitle: Te ayudamos a implementar los distintos módulos de Odoo
     icon: fa-copy
-  - title: Contrata un desarrollador
+  - title: Desarrollo Odoo
     subtitle: Desarrollamos software que se ajusta a tus necesidades
     icon: fa-wrench
-  - title: Capacitación
+  - title: Capacitación Odoo
     subtitle: Capacitamos a tu equipo con las mejores herramientas didácticas
     icon: fa-cubes
     # icon_brand: true
