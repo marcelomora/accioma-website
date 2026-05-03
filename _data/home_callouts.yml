@@ -1,12 +1,17 @@
 style: is-light
 items:
-  - title: Implementación Odoo
-    subtitle: Te ayudamos a implementar los distintos módulos de Odoo
-    icon: fa-copy
-  - title: Desarrollo Odoo
-    subtitle: Desarrollamos software que se ajusta a tus necesidades
-    icon: fa-wrench
-  - title: Capacitación Odoo
-    subtitle: Capacitamos a tu equipo con las mejores herramientas didácticas
+  - title: Implementación Odoo ERP
+    subtitle: Contabilidad, Inventario, CRM y más — configurados para la realidad ecuatoriana.
     icon: fa-cubes
-    # icon_brand: true
+    call_to_action_name: Ver más
+    call_to_action_link: /servicios/odoo/
+  - title: Fábrica de Software
+    subtitle: Desarrollo a medida en Python, integraciones con n8n y APIs que automatizan tu operación.
+    icon: fa-code
+    call_to_action_name: Ver más
+    call_to_action_link: /servicios/software/
+  - title: Facturación Electrónica SRI
+    subtitle: Cumplimiento total con la normativa del SRI. Emite comprobantes electrónicos desde Odoo.
+    icon: fa-file-invoice
+    call_to_action_name: Ver más
+    call_to_action_link: /servicios/sri/

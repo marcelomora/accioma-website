@@ -16,6 +16,7 @@ div.highlight {
     box-shadow: $box-shadow;
     padding: 1.5rem;
     margin-bottom: 3rem;
+    border-radius: 12px;
 }
 
 .hero-darken {
@@ -33,6 +34,45 @@ div.highlight {
         width: 4rem;
         height: 4rem;
         margin-bottom: 0.75rem;
+    }
+}
+
+// Navbar dropdown — glassmorphism
+.navbar-dropdown {
+    border-radius: 12px;
+    border-top: 2px solid #4F46E5;
+    box-shadow: 0 8px 32px rgba(26, 32, 44, 0.12);
+    padding: 0.5rem 0;
+}
+
+// Process / feature strip
+.accioma-process {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 3rem 0;
+
+    &__step {
+        flex: 1;
+        min-width: 200px;
+        max-width: 260px;
+        text-align: center;
+        position: relative;
+
+        &__number {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 3rem;
+            height: 3rem;
+            background: #4F46E5;
+            color: #fff;
+            border-radius: 50%;
+            font-weight: 800;
+            font-size: 1.1rem;
+            margin-bottom: 1rem;
+        }
     }
 }
 

@@ -1,0 +1,22 @@
+services:
+  jekyll:
+    # Using a full Ruby image to avoid Alpine-based memory crashes (Segfaults)
+    image: ruby:3.2
+    working_dir: /srv/jekyll
+    # This command installs the environment and runs the server in one go
+    command: >
+      bash -c "gem install jekyll bundler &&
+               bundle install &&
+               bundle exec jekyll serve --livereload --force_polling --port 4001 -H 0.0.0.0"
+    ports:
+      - "4001:4001"     # Localhost:4001 (Avoids NoMachine port 4000)
+      - "35729:35729"   # Required for Livereload refresh
+    volumes:
+      - .:/srv/jekyll
+      - jekyll_gems:/usr/local/bundle
+    environment:
+      - JEKYLL_ENV=development
+      - TZ=America/Guayaquil
+
+volumes:
+  jekyll_gems:

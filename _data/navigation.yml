@@ -1,21 +1,13 @@
-- name: Docs
-  link: /docs/
-- name: Example Pages
-  link: /#
+- name: Servicios
+  link: /servicios/
   dropdown:
-    - name: Landing Page With Callouts
-      link: /landing/
-    - name: Promo Page
-      link: /promo-page/
-    - name: Sponsors Page
-      link: /sponsors/
-    - name: Image Gallery
-      link: /gallery/
-    - name: Products
-      link: /products/
-    - name: Recipe Page
-      link: /example-recipe/
-    - name: Showcase
-      link: /showcase/
+    - name: Implementación Odoo
+      link: /servicios/odoo/
+    - name: Fábrica de Software
+      link: /servicios/software/
+    - name: Cumplimiento Ecuador (SRI)
+      link: /servicios/sri/
 - name: Blog
   link: /blog/
+- name: Contacto
+  link: /contacto/

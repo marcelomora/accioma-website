@@ -4,7 +4,8 @@ title: Accioma
 tagline: Soluciones Digitales
 email: marcelo.mora@accioma.com
 description: >
-  Accioma Webpage
+  Accioma — Consultora digital en Quito, Ecuador. Especialistas en implementación de Odoo ERP,
+  desarrollo a medida en Python y Facturación Electrónica SRI.
 baseurl: ""
 # baseurl: "/bulma-clean-theme"
 url: "https://accioma.com"
@@ -69,7 +70,7 @@ defaults:
       path: ""
       type: "posts"
     values:
-      author: "C.S. Rhymes"
+      author: "Accioma"
       layout: post
       image: https://via.placeholder.com/1200x800
       show_sidebar: true
