@@ -1,8 +1,8 @@
 - name: Servicios
   link: /servicios/
   dropdown:
-    - name: Implementación Odoo
-      link: /servicios/odoo/
+    - name: Planes
+      link: /servicios/axyrion/
     - name: Fábrica de Software
       link: /servicios/software/
     - name: Cumplimiento Ecuador (SRI)

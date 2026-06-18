@@ -13,7 +13,7 @@ Accioma es una consultora técnica especializada en implementación de Odoo ERP,
 <div class="columns is-multiline mt-6">
   <div class="column is-4">
     <div class="box">
-      <p class="title is-5"><i class="fas fa-cubes mr-2" style="color:#4F46E5"></i>Implementación Odoo</p>
+      <p class="title is-5"><i class="fas fa-cubes mr-2" style="color:#4F46E5"></i>Software Empresarial</p>
       <p>Contabilidad, Inventario, CRM, Ventas, Compras y más. Configuramos Odoo para que se adapte a tus procesos, no al revés.</p>
       <a href="/servicios/odoo/" class="button is-primary is-small mt-4">Ver detalle</a>
     </div>
