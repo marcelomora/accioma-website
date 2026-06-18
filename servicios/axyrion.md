@@ -2,6 +2,8 @@
 title: Axyrion
 subtitle: Plataforma Empresarial para Pymes en la Nube
 layout: page
+hero_image: /img/axyrion_hero.jpg
+hero_darken: true
 hero_height: is-medium
 show_sidebar: false
 ---
