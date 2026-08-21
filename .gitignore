@@ -5,6 +5,12 @@ _site
 Gemfile.lock
 .idea
 .DS_Store
+.agents
+.code
+.impeccable
+.codex
+DESIGN.md
+PRODUCT.md
 node_modules/*
 !node_modules/bulma
 !node_modules/bulma-block-list

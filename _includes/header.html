@@ -1,12 +1,10 @@
 <nav
-    class="navbar is-primary {% if site.fixed_navbar %} is-fixed-{{ site.fixed_navbar }} {% endif %}"
+    class="navbar {% if site.fixed_navbar %} is-fixed-{{ site.fixed_navbar }} {% endif %}"
     x-data="{ openNav: false }"
 >
     <div class="container">
         <div class="navbar-brand">
-            <a href="{{ site.baseurl }}/" class="navbar-item">
-                <img src="{{ site.baseurl }}/img/logo.png" alt="{{ site.title }}" style="max-height: 40px;">
-            </a>
+            <a href="{{ site.baseurl }}/" class="navbar-item brand-word">{{ site.title }}</a>
             <a
                 role="button"
                 class="navbar-burger burger"
@@ -23,14 +21,17 @@
         </div>
         <div class="navbar-menu" id="navMenu" :class="{ 'is-active': openNav }">
             <div class="navbar-start">
-                <a href="{{ site.baseurl }}/" class="navbar-item {% if page.url == "/" %}is-active{% endif %}">Inicio</a>
                 {% if site.data.navigation %}
                     {% for item in site.data.navigation %}
                         {% if item.dropdown %}
+                            {% assign parent_active = false %}
+                            {% for subitem in item.dropdown %}
+                                {% if subitem.link == page.url %}{% assign parent_active = true %}{% endif %}
+                            {% endfor %}
                             <div class="navbar-item has-dropdown is-hoverable {% if site.fixed_navbar == 'bottom' %} has-dropdown-up {% endif %}">
                                 <a
                                     href="{{ item.link | relative_url }}"
-                                    class="navbar-link {% if page.url contains item.link %}is-active{% endif %}"
+                                    class="navbar-link {% if parent_active %}is-active{% endif %}"
                                 >
                                     {{- item.name -}}
                                 </a>
@@ -64,6 +65,9 @@
                         <span>{{ site.gh_sponsor }}</span>
                     </a>
                 {% endif %}
+                <div class="navbar-item">
+                    <a href="{{ '/contacto/' | relative_url }}" class="button navbar-cta">Hablar con un experto</a>
+                </div>
             </div>
         </div>
     </div>

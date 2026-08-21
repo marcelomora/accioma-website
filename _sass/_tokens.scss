@@ -1,0 +1,68 @@
+@charset "utf-8";
+
+// --- Accioma Design System: Structural Minimalist (see DESIGN.md) ---
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@600;700;800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap');
+
+// Canvas / structural backgrounds
+$canvas: #FCFCFC;
+$canvas-secondary: #F4F4F6;
+$container-active: #FFFFFF;
+
+// Typography & dividers
+$ink: #0F0F11;
+$ink-secondary: #52525B;
+$ink-tertiary: #A1A1AA;
+$hairline: #E4E4E7;
+
+// Functional brand accents
+$trust-blue: #1A73E8;
+$growth-green: #00A86B;
+$review-gold: #F59E0B;
+
+// Type families
+$font-display: 'Plus Jakarta Sans', 'Inter', sans-serif;
+$family-sans-serif: 'Inter', 'Plus Jakarta Sans', sans-serif;
+$family-primary: $family-sans-serif;
+$family-secondary: $family-sans-serif;
+$family-monospace: 'JetBrains Mono', 'SF Mono', monospace;
+
+$title-family: $font-display;
+
+// Bulma palette overrides — forced (not !default) so they win regardless of import order
+$primary: $growth-green;
+$link: $growth-green;
+$info: $trust-blue;
+$warning: $review-gold;
+$success: $growth-green;
+$text: $ink;
+$text-strong: $ink;
+$text-light: $ink-secondary;
+$border: $hairline;
+$border-light: $hairline;
+
+$body-background-color: $canvas;
+
+// Zero border-radius — sharp corners everywhere per the archetype
+$radius-small: 0;
+$radius: 0;
+$radius-medium: 0;
+$radius-large: 0;
+$radius-rounded: 0;
+
+// Structural navbar: flat surface, hairline border, no shadow
+$navbar-background-color: $container-active;
+$navbar-box-shadow-size: 0 0 0;
+$navbar-item-img-max-height: 1.5rem;
+
+// Footer: deep charcoal directory, not the theme's default light strip
+$footer-background-color: $ink;
+$footer-color: rgba(255, 255, 255, 0.72);
+$footer-padding: 0;
+
+// Type scale
+$size-1: 3.25rem;
+$size-2: 2.25rem;
+$size-3: 1.625rem;
+$size-4: 1.25rem;
+$size-5: 1.0625rem;
+$body-line-height: 1.65;

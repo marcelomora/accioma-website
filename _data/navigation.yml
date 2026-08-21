@@ -1,13 +1,18 @@
-- name: Servicios
-  link: /servicios/
+- name: Presencia Digital
+  link: /servicios/presencia-digital/
+- name: Operaciones
+  link: /servicios/axyrion/
   dropdown:
-    - name: Planes
+    - name: Axyrion (Odoo ERP)
       link: /servicios/axyrion/
+    - name: Facturación Electrónica SRI
+      link: /servicios/sri/
+- name: Automatización
+  link: /servicios/software/
+  dropdown:
     - name: Fábrica de Software
       link: /servicios/software/
-    - name: Cumplimiento Ecuador (SRI)
-      link: /servicios/sri/
+    - name: Automatización & IA
+      link: /servicios/automatizacion-ia/
 - name: Blog
   link: /blog/
-- name: Contacto
-  link: /contacto/

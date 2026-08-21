@@ -1,20 +1,14 @@
-<div class="">
-    <div class="container py-6 px-4" id="cookieBanner">
-        <div class="columns">
-            <div class="column is-fullwidth ">
-                <div class="content">
-                    <p>Utilizamos cookies en este sitio para mejorar su experiencia de usuario.</p>
-                    <p>
-                        Al hacer clic en Aceptar, usted consiente su uso.
-                        <a href="{{ site.cookie_policy | relative_url }}">Más información sobre nuestra política de cookies</a>
-                    </p>
-                </div>
+<div class="cookie-banner" id="cookieBanner">
+    <div class="container cookie-banner__inner">
+        <p class="cookie-banner__text">
+            Utilizamos cookies en este sitio para mejorar su experiencia de usuario.
+            Al hacer clic en Aceptar, usted consiente su uso.
+            <a href="{{ site.cookie_policy | relative_url }}">Más información sobre nuestra política de cookies</a>
+        </p>
 
-                <div class="buttons mt-4">
-                    <button class="button is-primary" onclick="acceptCookies()">Aceptar todas las cookies</button>
-                    <button class="button is-primary" onclick="rejectCookies()">Rechazar todas las cookies</button>
-                </div>
-            </div>
+        <div class="cookie-banner__actions">
+            <button class="button is-primary is-small" onclick="acceptCookies()">Aceptar todas las cookies</button>
+            <button class="button is-outlined is-small" onclick="rejectCookies()">Rechazar todas las cookies</button>
         </div>
     </div>
 

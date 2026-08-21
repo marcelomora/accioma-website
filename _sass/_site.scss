@@ -1,0 +1,282 @@
+// --- Global structural component overrides (see DESIGN.md §3–4) ---
+
+// Browser surfaces — themed rather than left to defaults
+::selection {
+  background: $growth-green;
+  color: $container-active;
+}
+
+:focus-visible {
+  outline: 2px solid $growth-green;
+  outline-offset: 2px;
+}
+
+html {
+  scrollbar-color: $ink-tertiary $canvas-secondary;
+}
+
+::-webkit-scrollbar { width: 10px; height: 10px; }
+::-webkit-scrollbar-track { background: $canvas-secondary; }
+::-webkit-scrollbar-thumb {
+  background: $ink-tertiary;
+  border: 2px solid $canvas-secondary;
+  background-clip: padding-box;
+}
+::-webkit-scrollbar-thumb:hover { background: $ink-secondary; }
+
+a { text-underline-offset: 0.15em; }
+
+.is-tabular-nums { font-variant-numeric: tabular-nums; }
+
+// --- Headings ---
+h1, h2, h3, .title {
+  color: $ink;
+  letter-spacing: -0.02em;
+  font-family: $font-display;
+}
+
+h1, .title.is-1, .title.is-2 { letter-spacing: -0.03em; }
+
+.subtitle {
+  color: $ink-secondary;
+  font-weight: 500;
+}
+
+// --- Mono accents ---
+code, pre, .tag.is-mono, .label-mono {
+  font-family: $family-monospace;
+}
+
+.label-mono {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  background: $canvas-secondary;
+  color: $ink;
+  border: 1px solid $hairline;
+  padding: 0.2em 0.6em;
+}
+
+// --- Cookie banner: structural strip, not a floating notification ---
+.cookie-banner {
+  background: $canvas-secondary;
+  border-bottom: 1px solid $hairline;
+}
+
+.cookie-banner__inner {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0.9rem 1.5rem;
+}
+
+.cookie-banner__text {
+  font-size: 0.8125rem;
+  color: $ink-secondary;
+  max-width: 60ch;
+
+  a { color: $ink; text-decoration: underline; }
+}
+
+.cookie-banner__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+// --- Navbar: flat surface, hairline border, no blur/shadow ---
+.navbar {
+  background: $container-active;
+  border-bottom: 1px solid $hairline;
+
+  .navbar-item, .navbar-link {
+    color: $ink;
+    font-weight: 500;
+
+    &:hover, &.is-active {
+      color: $growth-green;
+      background: transparent;
+    }
+  }
+
+  .navbar-link:not(.is-arrowless)::after {
+    border-color: $ink-tertiary;
+  }
+
+  .navbar-brand .brand-word {
+    font-family: $font-display;
+    font-weight: 800;
+    font-size: 0.95rem;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: $ink;
+
+    &:hover { color: $ink; }
+  }
+
+  .navbar-dropdown {
+    border-top: 1px solid $hairline;
+    border-radius: 0;
+    box-shadow: none;
+    padding: 0;
+    min-width: 15rem;
+
+    .navbar-item {
+      padding: 0.65rem 1.25rem;
+      border-bottom: 1px solid $hairline;
+
+      &:last-child { border-bottom: none; }
+    }
+  }
+
+  .navbar-cta {
+    border: 1px solid $ink;
+    background: $ink;
+    color: $container-active !important;
+    font-weight: 600;
+    padding: 0.5em 1.1em;
+    transition: background-color 150ms cubic-bezier(0.16, 1, 0.3, 1), border-color 150ms cubic-bezier(0.16, 1, 0.3, 1);
+
+    &:hover {
+      background: $growth-green;
+      border-color: $growth-green;
+    }
+  }
+}
+
+// --- Buttons: sharp, bordered, no shadow ---
+.button {
+  box-shadow: none;
+  transition: background-color 150ms cubic-bezier(0.16, 1, 0.3, 1), color 150ms cubic-bezier(0.16, 1, 0.3, 1), border-color 150ms cubic-bezier(0.16, 1, 0.3, 1);
+
+  &.is-primary {
+    background-color: $growth-green;
+    border-color: $growth-green;
+    color: $container-active;
+    font-weight: 600;
+
+    &:hover {
+      background-color: darken($growth-green, 8%);
+      border-color: darken($growth-green, 8%);
+      color: $container-active;
+    }
+  }
+
+  &.is-outlined {
+    border-color: $ink;
+    color: $ink;
+    background-color: transparent;
+
+    &:hover {
+      background-color: $ink;
+      border-color: $ink;
+      color: $container-active;
+    }
+  }
+}
+
+// --- Boxes / cards: bordered surfaces, never shadowed ---
+.card, .box {
+  background: $canvas-secondary;
+  border: 1px solid $hairline;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+// --- Sections ---
+.section {
+  padding: 5rem 1.5rem;
+}
+
+.section.is-light, section.hero.is-light {
+  background-color: $canvas-secondary;
+}
+
+.callout-icon i {
+  color: $growth-green;
+}
+
+.hero.is-primary {
+  background-color: $ink;
+
+  .title, .subtitle { color: $container-active; }
+}
+
+// --- Footer: structural directory, not the theme's light strip ---
+.footer {
+  background-color: $ink;
+  color: rgba(255, 255, 255, 0.72);
+  padding: 0;
+
+  a, .link {
+    color: rgba(255, 255, 255, 0.88);
+    font-weight: 500;
+
+    &:hover { color: $growth-green; }
+  }
+}
+
+.site-footer__directory {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2.5rem;
+  padding: 3.5rem 0 3rem;
+}
+
+@include tablet {
+  .site-footer__directory {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@include desktop {
+  .site-footer__directory {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.site-footer__column-title {
+  font-family: $family-monospace;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: $ink-tertiary;
+  margin-bottom: 1rem;
+}
+
+.site-footer__links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.65rem;
+
+  a { font-size: 0.9375rem; }
+}
+
+.site-footer__bar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  padding: 1.5rem 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.site-footer__copy {
+  font-size: 0.8125rem;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.site-footer__bar a {
+  font-size: 0.8125rem;
+}
+
+.gh-sponsor { color: #ea4aaa; }
