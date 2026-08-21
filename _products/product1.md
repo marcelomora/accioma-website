@@ -4,7 +4,7 @@ subtitle: Product 1 tagline here
 description: This is a product description
 product_code: ABC124
 layout: product
-image: https://via.placeholder.com/640x480
+image: https://placehold.co/640x480
 price: £1.99 + VAT
 features:
     - label: Great addition to any home

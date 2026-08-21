@@ -41,7 +41,7 @@ items:
       - This is a feature
       - This is a feature
     features_styles: is-centered is-outlined is-primary
-    image: https://via.placeholder.com/1024x788
+    image: https://placehold.co/1024x788
     image_ratio: is-16by9
     link: http://www.example.com
     link_text: View example

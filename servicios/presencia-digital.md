@@ -1,6 +1,6 @@
 ---
 title: Presencia Digital y Crecimiento Local
-subtitle: Que tu negocio aparezca primero cuando te buscan en Quito.
+subtitle: Que tu negocio aparezca primero cuando te buscan en Google Maps.
 layout: page
 hero_height: is-medium
 show_sidebar: false

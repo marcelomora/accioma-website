@@ -3,7 +3,7 @@ title: Product 2 Name
 subtitle: Product 2 tagline here
 product_code: ABC123
 layout: product
-image: https://via.placeholder.com/640x480
+image: https://placehold.co/640x480
 price: £0.99 + VAT
 features:
     - label: Great addition to any home

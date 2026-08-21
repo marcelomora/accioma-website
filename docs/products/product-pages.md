@@ -22,7 +22,7 @@ description: This is a product description
 hero_image: /img/hero-img.jpg
 product_code: ABC124
 layout: product
-image: https://via.placeholder.com/640x480
+image: https://placehold.co/640x480
 price: £1.99 + VAT
 features:
     - label: Great addition to any home
@@ -47,7 +47,7 @@ collections:
   products: 
     output: true
     layout: product
-    image: https://via.placeholder.com/800x600
+    image: https://placehold.co/800x600
     show_sidebar: false
 ```
 

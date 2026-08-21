@@ -20,14 +20,14 @@ Start by creating a gallery data file using the below format, for example `my_ga
 ```yaml
 - title: Image Gallery Title
   images:
-    - link: https://via.placeholder.com/800x450
-      large_link: https://via.placeholder.com/1200x675
+    - link: https://placehold.co/800x450
+      large_link: https://placehold.co/1200x675
       alt: The alt text for the image
       description: |-
         The image description can be written in **markdown** if required
       ratio: is-16by9
-    - link: https://via.placeholder.com/800x600
-      large_link: https://via.placeholder.com/1200x900
+    - link: https://placehold.co/800x600
+      large_link: https://placehold.co/1200x900
       alt: The alt text for the image
       description: The image description
       ratio: is-4by3
@@ -44,24 +44,24 @@ If you want multiple image galleries on the same page then create additional sec
 ```yaml
 - title: First Image Gallery Title
   images:
-    - link: https://via.placeholder.com/800x450
+    - link: https://placehold.co/800x450
       alt: The alt text for the image
       description: |-
         The image description can be written in **markdown** if required
       ratio: is-16by9
-    - link: https://via.placeholder.com/800x600
+    - link: https://placehold.co/800x600
       alt: The alt text for the image
       description: The image description
       ratio: is-4by3
 
 - title: Second Image Gallery Title
   images:
-    - link: https://via.placeholder.com/800x450
+    - link: https://placehold.co/800x450
       alt: The alt text for the image
       description: |-
         The image description can be written in **markdown** if required
       ratio: is-16by9
-    - link: https://via.placeholder.com/800x600
+    - link: https://placehold.co/800x600
       alt: The alt text for the image
       description: The image description
       ratio: is-4by3
