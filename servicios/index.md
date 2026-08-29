@@ -1,6 +1,6 @@
 ---
-title: Nuestros Servicios
-subtitle: Soluciones digitales diseñadas para empresas en Ecuador.
+title: Soluciones Digitales para Negocios
+subtitle: Paquetes y servicios diseñados para que consigas más clientes y controles tu operación.
 layout: page
 hero_height: is-medium
 show_sidebar: false
@@ -8,28 +8,35 @@ show_sidebar: false
 
 ## Lo que hacemos
 
-Accioma es una consultora técnica especializada en Axyrion (nuestra implementación de Odoo Community con localización ecuatoriana), desarrollo de software a medida y cumplimiento de normativas locales ecuatorianas.
+Accioma te ayuda a crecer mediante un enfoque integral: desde asegurar que los clientes te encuentren en Google y contacten por WhatsApp, hasta automatizar esos contactos y controlar toda tu operación con Odoo.
 
 <div class="columns is-multiline mt-6">
-  <div class="column is-4">
-    <div class="box">
-      <p class="title is-5"><i class="fas fa-cubes mr-2" style="color:#00A86B"></i>Axyrion</p>
-      <p>Contabilidad, Inventario, CRM, Ventas, Compras y más, sobre Odoo Community. Configuramos Axyrion para que se adapte a tus procesos, no al revés.</p>
+  <div class="column is-6">
+    <div class="box h-100">
+      <p class="title is-5"><i class="fas fa-map-marker-alt mr-2" style="color:#00A86B"></i>Presencia Digital</p>
+      <p>Consigue que más personas encuentren y contacten a tu negocio mediante Google Maps, SEO Local, Landing Pages y sistema de reseñas.</p>
+      <a href="/servicios/presencia-digital/" class="button is-primary is-small mt-4">Ver detalle</a>
+    </div>
+  </div>
+  <div class="column is-6">
+    <div class="box h-100">
+      <p class="title is-5"><i class="fas fa-robot mr-2" style="color:#00A86B"></i>Automatización e IA</p>
+      <p>Convierte WhatsApp en un vendedor 24/7 y automatiza tus procesos de ventas, alertas y seguimiento con agentes de IA.</p>
+      <a href="/servicios/automatizacion-ia/" class="button is-primary is-small mt-4">Ver detalle</a>
+    </div>
+  </div>
+  <div class="column is-6">
+    <div class="box h-100">
+      <p class="title is-5"><i class="fas fa-cubes mr-2" style="color:#00A86B"></i>Axyrion para Empresas</p>
+      <p>Controla ventas, inventario y operaciones de tu tienda o pyme con la implementación, configuración y soporte de Axyrion (basado en Odoo).</p>
       <a href="/servicios/axyrion/" class="button is-primary is-small mt-4">Ver detalle</a>
     </div>
   </div>
-  <div class="column is-4">
-    <div class="box">
-      <p class="title is-5"><i class="fas fa-code mr-2" style="color:#00A86B"></i>Fábrica de Software</p>
-      <p>Desarrollo a medida en Python, integraciones con n8n y construcción de APIs para conectar tus sistemas.</p>
-      <a href="/servicios/software/" class="button is-primary is-small mt-4">Ver detalle</a>
-    </div>
-  </div>
-  <div class="column is-4">
-    <div class="box">
-      <p class="title is-5"><i class="fas fa-file-invoice mr-2" style="color:#00A86B"></i>Facturación Electrónica SRI</p>
-      <p>Implementación y soporte para la emisión de comprobantes electrónicos válidos ante el SRI desde Axyrion.</p>
-      <a href="/servicios/sri/" class="button is-primary is-small mt-4">Ver detalle</a>
+  <div class="column is-6">
+    <div class="box h-100">
+      <p class="title is-5"><i class="fas fa-code mr-2" style="color:#00A86B"></i>Desarrollo a Medida</p>
+      <p>Módulos personalizados, aplicaciones móviles e integraciones de sistemas para resolver las necesidades específicas de tu empresa.</p>
+      <a href="/servicios/desarrollo-medida/" class="button is-primary is-small mt-4">Ver detalle</a>
     </div>
   </div>
 </div>

@@ -1,65 +1,27 @@
 ---
-title: Axyrion
-subtitle: Plataforma Empresarial para Pymes en la Nube
+title: Axyrion para Empresas
+subtitle: Controla ventas, inventario y operaciones con nuestra plataforma.
 layout: page
-hero_image: /img/axyrion_hero.jpg
-hero_darken: true
 hero_height: is-medium
 show_sidebar: false
-redirect_from: /servicios/odoo/
 ---
 
-> **¿Qué es Axyrion?** Axyrion es nuestra implementación de **Odoo Community** — el ERP open source más usado del mundo — enriquecida con módulos de localización ecuatoriana (Facturación Electrónica SRI, nómina bajo el Código de Trabajo, plan de cuentas local) y entregada como plataforma administrada, lista para usar.
+## Del mostrador al inventario: controla toda tu empresa con Axyrion
 
-## Módulos que implementamos
+Axyrion es nuestra solución integral de gestión basada en Odoo Community, enriquecida y optimizada para el mercado ecuatoriano. Nos alejamos de la "implementación técnica" tradicional. Nuestro enfoque es que tu negocio funcione mejor. Especialmente diseñado para pequeñas y medianas empresas, tiendas de tecnología y smartphones, repuestos automotrices, y ferreterías.
 
-- **Contabilidad** — Plan de cuentas ecuatoriano, retenciones, facturación electrónica SRI.
-- **Inventario** — Gestión de bodegas, trazabilidad de lotes y series.
-- **CRM** — Pipeline de ventas, seguimiento de oportunidades, automatización de comunicaciones.
-- **Compras** — Órdenes de compra, recepción de mercancía, conciliación con facturas de proveedores.
-- **Nómina** — Liquidaciones bajo el Código de Trabajo ecuatoriano.
+### Lo que hacemos con Axyrion
+- **Implementación y configuración:** puesta en marcha adaptada a tus procesos reales, con las ventajas de un sistema probado como Odoo.
+- **Migración de datos:** trasladamos tu información de sistemas anteriores de forma segura.
+- **Capacitación y soporte:** acompañamos a tu equipo para garantizar el éxito de la herramienta.
+- **Personalización e integraciones:** conectamos Axyrion con otras herramientas clave de tu negocio.
 
-## Nuestro proceso
+### ¿Por qué elegirnos?
+Tenemos experiencia profunda y difícil de conseguir en el mercado. Vamos más allá del estándar:
+- Control de **Ventas e Inventario** en tiempo real.
+- **Contabilidad y Manufactura** adaptada a tu realidad.
+- Soluciones Premium integradas: **Facturación Electrónica (Localización Ecuador)**, desarrollo de módulos personalizados y más.
 
-1. **Diagnóstico** — Relevamiento de procesos actuales.
-2. **Configuración** — Setup en entorno de staging con tus datos reales.
-3. **Capacitación** — Sesiones prácticas para cada área.
-4. **Go-live** — Acompañamiento durante el primer mes de operación.
+Deja de sufrir con hojas de cálculo y múltiples sistemas desconectados. Unifica la gestión de tu empresa dando el crédito a la robusta base de Odoo, pero con la experiencia y personalización de Axyrion.
 
-## Planes de Hosting Administrado Axyrion
-
-Axyrion es una plataforma administrada, segura y lista para crecer con tu empresa.
-
-**Todos nuestros planes incluyen usuarios ilimitados.** La diferencia entre los planes está en la capacidad de procesamiento asignada para garantizar un rendimiento óptimo de acuerdo con el tamaño y las necesidades de tu empresa.
-
-## Planes
-
-| Plan             | Ideal para                             |          Precio |
-| ---------------- | -------------------------------------- | --------------: |
-| **Starter**      | Emprendedores y pequeñas empresas      |  **USD 30/mes** |
-| **Business**     | Empresas en crecimiento                |  **USD 50/mes** |
-| **Professional** | Empresas con operaciones más exigentes | **USD 100/mes** |
-
-> **¿Qué cambia entre los planes?**
-> Todos incluyen las mismas funcionalidades y módulos Axyrion. Lo que varía es la capacidad de procesamiento asignada a tu instancia para mantener un rendimiento óptimo conforme aumenta la carga de trabajo de tu empresa.
-
-## Todos los planes incluyen
-
-| Característica                           | Starter | Business | Professional |
-| ---------------------------------------- | :-----: | :------: | :----------: |
-| Usuarios ilimitados                      |    ✅    |     ✅    |       ✅      |
-| Todas las aplicaciones de Odoo Community |    ✅    |     ✅    |       ✅      |
-| Base de datos dedicada                   |    ✅    |     ✅    |       ✅      |
-| Certificado SSL                          |    ✅    |     ✅    |       ✅      |
-| Copias de seguridad automáticas          |    ✅    |     ✅    |       ✅      |
-| Actualizaciones de seguridad             |    ✅    |     ✅    |       ✅      |
-| Monitoreo del servicio                   |    ✅    |     ✅    |       ✅      |
-| Soporte técnico                          |    ✅    |     ✅    |       ✅      |
-| **Capacidad de procesamiento**           |  Básica | Estándar |     Alta     |
-
-## Escala cuando tu negocio lo necesite
-
-Puedes cambiar de plan en cualquier momento. A medida que tu empresa crece, aumentamos la capacidad de procesamiento de tu instancia sin que tengas que preocuparte por migraciones complejas o por pagar licencias adicionales por usuario.
-Axyrion está basado en la tecnología Open Source de Odoo y enriquecido con funcionalidades desarrolladas específicamente para empresas ecuatorianas.
-
-[Solicitar una demo gratuita](/contacto/){:.button.is-primary}
+[Controlar mi negocio con Axyrion](/contacto/){:.button.is-primary}

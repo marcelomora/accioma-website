@@ -1,18 +1,13 @@
-- name: Presencia Digital
-  link: /servicios/presencia-digital/
-- name: Operaciones
-  link: /servicios/axyrion/
+- name: Servicios
+  link: /servicios/
   dropdown:
-    - name: Axyrion (Odoo ERP)
-      link: /servicios/axyrion/
-    - name: Facturación Electrónica SRI
-      link: /servicios/sri/
-- name: Automatización
-  link: /servicios/software/
-  dropdown:
-    - name: Fábrica de Software
-      link: /servicios/software/
-    - name: Automatización & IA
+    - name: Presencia Digital
+      link: /servicios/presencia-digital/
+    - name: Automatización e IA
       link: /servicios/automatizacion-ia/
+    - name: Axyrion
+      link: /servicios/axyrion/
+    - name: Desarrollo a medida
+      link: /servicios/desarrollo-medida/
 - name: Blog
   link: /blog/

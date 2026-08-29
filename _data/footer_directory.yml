@@ -1,21 +1,25 @@
-- title: Presencia
+- title: Presencia Digital
   links:
-    - name: Google Maps y Perfil de Negocio
+    - name: Google Maps y SEO Local
       link: /servicios/presencia-digital/
-    - name: Tarjetas NFC de reseña
+    - name: Sitios Web y Landing Pages
       link: /servicios/presencia-digital/
-- title: Operaciones
+    - name: WhatsApp y Reseñas
+      link: /servicios/presencia-digital/
+- title: Automatización e IA
   links:
-    - name: Axyrion (Odoo ERP)
-      link: /servicios/axyrion/
-    - name: Facturación Electrónica SRI
-      link: /servicios/sri/
-- title: Automatización
-  links:
-    - name: Fábrica de Software
-      link: /servicios/software/
-    - name: Automatización & IA
+    - name: Automatización de procesos
       link: /servicios/automatizacion-ia/
+    - name: WhatsApp con IA
+      link: /servicios/automatizacion-ia/
+    - name: Agentes de IA
+      link: /servicios/automatizacion-ia/
+- title: Axyrion y Desarrollo
+  links:
+    - name: Axyrion para empresas
+      link: /servicios/axyrion/
+    - name: Desarrollo a medida
+      link: /servicios/desarrollo-medida/
 - title: Accioma
   links:
     - name: Quito, Ecuador

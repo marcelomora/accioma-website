@@ -15,7 +15,7 @@ show_sidebar: false
       <p class="home-hero__subtitle">{{ page.subtitle }}</p>
       <div class="home-hero__actions">
         <a href="{{ '/servicios/presencia-digital/' | relative_url }}" class="button is-primary is-medium">Optimizar mi presencia digital →</a>
-        <a href="{{ '/servicios/axyrion/' | relative_url }}" class="button is-outlined is-medium">Explorar Axyrion →</a>
+        <a href="{{ '/servicios/axyrion/' | relative_url }}" class="button is-outlined is-medium">Controlar mi operación con Axyrion →</a>
       </div>
     </div>
     <!--
@@ -50,33 +50,33 @@ show_sidebar: false
   <div class="pillar-grid">
     <article class="pillar">
       <p class="pillar__number">01</p>
-      <h2 class="pillar__title">Presencia Digital</h2>
+      <h2 class="pillar__title">Negocio Visible</h2>
       <ul class="pillar__list">
-        <li>Optimización de Google Maps y Perfil de Negocio</li>
-        <li>Tarjetas NFC de reseña automática</li>
-        <li>Sitios de enlace (bio-link)</li>
+        <li>Google Maps y Perfil de Negocio</li>
+        <li>Sistema de reseñas (NFC/QR)</li>
+        <li>WhatsApp y Landing Page</li>
       </ul>
-      <a href="{{ '/servicios/presencia-digital/' | relative_url }}" class="pillar__cta">Auditar mi presencia en Google Maps →</a>
+      <a href="{{ '/servicios/presencia-digital/' | relative_url }}" class="pillar__cta">Descubrir Presencia Digital →</a>
     </article>
     <article class="pillar">
       <p class="pillar__number">02</p>
-      <h2 class="pillar__title">Operaciones</h2>
+      <h2 class="pillar__title">Negocio Conectado</h2>
       <ul class="pillar__list">
-        <li>Axyrion — Odoo Community con localización ecuatoriana</li>
-        <li>CRM y pipeline de ventas</li>
-        <li>Facturación Electrónica SRI</li>
+        <li>Automatización de procesos (CRM/ERP)</li>
+        <li>WhatsApp automatizado 24/7</li>
+        <li>Agentes de IA para ventas y soporte</li>
       </ul>
-      <a href="{{ '/servicios/axyrion/' | relative_url }}" class="pillar__cta">Configurar mi instancia de Axyrion →</a>
+      <a href="{{ '/servicios/automatizacion-ia/' | relative_url }}" class="pillar__cta">Explorar Automatización e IA →</a>
     </article>
     <article class="pillar">
       <p class="pillar__number">03</p>
-      <h2 class="pillar__title">Automatización &amp; IA</h2>
+      <h2 class="pillar__title">Negocio Controlado</h2>
       <ul class="pillar__list">
-        <li>Integraciones con n8n</li>
-        <li>APIs a medida en Python</li>
-        <li>Agentes de IA aplicados</li>
+        <li>Axyrion para pymes y tiendas</li>
+        <li>Control de ventas, inventario y operaciones</li>
+        <li>Desarrollo y aplicaciones a medida</li>
       </ul>
-      <a href="{{ '/servicios/automatizacion-ia/' | relative_url }}" class="pillar__cta">Automatizar mi flujo de trabajo →</a>
+      <a href="{{ '/servicios/axyrion/' | relative_url }}" class="pillar__cta">Conocer Axyrion para empresas →</a>
     </article>
   </div>
 </section>
