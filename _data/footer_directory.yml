@@ -14,10 +14,14 @@
       link: /servicios/automatizacion-ia/
     - name: Agentes de IA
       link: /servicios/automatizacion-ia/
-- title: Axyrion y Desarrollo
+- title: Odoo y Axyrion
   links:
-    - name: Axyrion para empresas
-      link: /servicios/axyrion/
+    - name: Implementación de Odoo
+      link: /servicios/odoo/
+    - name: Rescate de implementación
+      link: /servicios/rescate-erp/
+    - name: Axyrion
+      link: /axyrion/
     - name: Desarrollo a medida
       link: /servicios/desarrollo-medida/
 - title: Accioma

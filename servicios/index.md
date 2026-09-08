@@ -13,6 +13,20 @@ Accioma te ayuda a crecer mediante un enfoque integral: desde asegurar que los c
 <div class="columns is-multiline mt-6">
   <div class="column is-6">
     <div class="box h-100">
+      <p class="title is-5"><i class="fas fa-cubes mr-2" style="color:#00A86B"></i>Implementación de Odoo</p>
+      <p>Implementamos Odoo Community con localización ecuatoriana: procesos, configuración por áreas, comprobantes del SRI, migración de datos y soporte. Sin licencias por usuario.</p>
+      <a href="/servicios/odoo/" class="button is-primary is-small mt-4">Ver detalle</a>
+    </div>
+  </div>
+  <div class="column is-6">
+    <div class="box h-100">
+      <p class="title is-5"><i class="fas fa-life-ring mr-2" style="color:#00A86B"></i>Rescate de implementación</p>
+      <p>Segunda opinión independiente y recuperación de proyectos de Odoo detenidos o mal implementados. También asumimos el cambio de consultor.</p>
+      <a href="/servicios/rescate-erp/" class="button is-primary is-small mt-4">Ver detalle</a>
+    </div>
+  </div>
+  <div class="column is-6">
+    <div class="box h-100">
       <p class="title is-5"><i class="fas fa-map-marker-alt mr-2" style="color:#00A86B"></i>Presencia Digital</p>
       <p>Consigue que más personas encuentren y contacten a tu negocio mediante Google Maps, SEO Local, Landing Pages y sistema de reseñas.</p>
       <a href="/servicios/presencia-digital/" class="button is-primary is-small mt-4">Ver detalle</a>
@@ -27,9 +41,9 @@ Accioma te ayuda a crecer mediante un enfoque integral: desde asegurar que los c
   </div>
   <div class="column is-6">
     <div class="box h-100">
-      <p class="title is-5"><i class="fas fa-cubes mr-2" style="color:#00A86B"></i>Axyrion para Empresas</p>
-      <p>Controla ventas, inventario y operaciones de tu tienda o pyme con la implementación, configuración y soporte de Axyrion (basado en Odoo).</p>
-      <a href="/servicios/axyrion/" class="button is-primary is-small mt-4">Ver detalle</a>
+      <p class="title is-5"><i class="fas fa-box mr-2" style="color:#00A86B"></i>Axyrion</p>
+      <p>Nuestra plataforma de gestión para pymes, construida sobre Odoo Community y ya localizada para Ecuador. La base configurada, lista para arrancar.</p>
+      <a href="/axyrion/" class="button is-primary is-small mt-4">Ver detalle</a>
     </div>
   </div>
   <div class="column is-6">

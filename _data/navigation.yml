@@ -1,13 +1,17 @@
 - name: Servicios
   link: /servicios/
   dropdown:
+    - name: Implementación de Odoo
+      link: /servicios/odoo/
+    - name: Rescate de implementación
+      link: /servicios/rescate-erp/
     - name: Presencia Digital
       link: /servicios/presencia-digital/
     - name: Automatización e IA
       link: /servicios/automatizacion-ia/
-    - name: Axyrion
-      link: /servicios/axyrion/
     - name: Desarrollo a medida
       link: /servicios/desarrollo-medida/
+    - name: Axyrion (basado en Odoo)
+      link: /axyrion/
 - name: Blog
   link: /blog/
