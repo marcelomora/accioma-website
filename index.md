@@ -1,6 +1,7 @@
 ---
-title: No solo digitalizamos tu empresa
-subtitle: Te acompañamos hasta que tu operación funcione sola
+title: Odoo, automatización e IA para pymes en Quito
+description: Consultora digital en Quito. Implementamos Odoo Community con localización ecuatoriana, automatizamos WhatsApp con IA y desarrollamos a medida para pymes. Diagnóstico gratuito.
+subtitle: "No solo digitalizamos tu empresa: te acompañamos hasta que tu operación funcione sola."
 layout: home
 show_sidebar: false
 ---
@@ -11,11 +12,11 @@ show_sidebar: false
   </div>
   <div class="container home-hero__grid home-hero__grid--single">
     <div class="home-hero__copy">
-      <h1 class="home-hero__title">{{ page.title }}</h1>
+      <h1 class="home-hero__title">Automatizamos la operación de tu pyme en Ecuador</h1>
       <p class="home-hero__subtitle">{{ page.subtitle }}</p>
       <div class="home-hero__actions">
-        <a href="{{ '/servicios/presencia-digital/' | relative_url }}" class="button is-primary is-medium">Optimizar mi presencia digital →</a>
-        <a href="{{ '/servicios/axyrion/' | relative_url }}" class="button is-outlined is-medium">Controlar mi operación con Axyrion →</a>
+        <a href="{{ '/contacto/' | relative_url }}" class="button is-primary is-medium">Agendar diagnóstico gratuito (30 min) →</a>
+        <a href="{{ '/servicios/' | relative_url }}" class="button is-outlined is-medium">Ver servicios</a>
       </div>
     </div>
     <!--
@@ -50,33 +51,33 @@ show_sidebar: false
   <div class="pillar-grid">
     <article class="pillar">
       <p class="pillar__number">01</p>
-      <h2 class="pillar__title">Negocio Visible</h2>
+      <h2 class="pillar__title">Que te encuentren</h2>
       <ul class="pillar__list">
-        <li>Google Maps y Perfil de Negocio</li>
-        <li>Sistema de reseñas (NFC/QR)</li>
-        <li>WhatsApp y Landing Page</li>
+        <li>Aparecer en Google Maps cuando alguien busca lo que vendes</li>
+        <li>Reseñas de clientes con tarjeta NFC o código QR</li>
+        <li>WhatsApp y una página web que sí traen contactos</li>
       </ul>
-      <a href="{{ '/servicios/presencia-digital/' | relative_url }}" class="pillar__cta">Descubrir Presencia Digital →</a>
+      <a href="{{ '/servicios/presencia-digital/' | relative_url }}" class="pillar__cta">Ver Presencia Digital →</a>
     </article>
     <article class="pillar">
       <p class="pillar__number">02</p>
-      <h2 class="pillar__title">Negocio Conectado</h2>
+      <h2 class="pillar__title">Que no se te escape nada</h2>
       <ul class="pillar__list">
-        <li>Automatización de procesos (CRM/ERP)</li>
-        <li>WhatsApp automatizado 24/7</li>
-        <li>Agentes de IA para ventas y soporte</li>
+        <li>Responder en WhatsApp al instante, a toda hora</li>
+        <li>Que los pedidos y las facturas dejen de pasarse a mano</li>
+        <li>Agentes de IA que retoman los clientes que quedaron sin seguimiento</li>
       </ul>
-      <a href="{{ '/servicios/automatizacion-ia/' | relative_url }}" class="pillar__cta">Explorar Automatización e IA →</a>
+      <a href="{{ '/servicios/automatizacion-ia/' | relative_url }}" class="pillar__cta">Ver Automatización e IA →</a>
     </article>
     <article class="pillar">
       <p class="pillar__number">03</p>
-      <h2 class="pillar__title">Negocio Controlado</h2>
+      <h2 class="pillar__title">Que tengas control</h2>
       <ul class="pillar__list">
-        <li>Axyrion para pymes y tiendas</li>
-        <li>Control de ventas, inventario y operaciones</li>
-        <li>Desarrollo y aplicaciones a medida</li>
+        <li>Odoo Community implementado y localizado para Ecuador — sin licencias por usuario</li>
+        <li>Saber qué tienes en bodega y cuánto deja cada producto</li>
+        <li>Ventas, inventario y contabilidad en un solo sistema</li>
       </ul>
-      <a href="{{ '/servicios/axyrion/' | relative_url }}" class="pillar__cta">Conocer Axyrion para empresas →</a>
+      <a href="{{ '/servicios/odoo/' | relative_url }}" class="pillar__cta">Ver implementación de Odoo →</a>
     </article>
   </div>
 </section>
@@ -84,16 +85,16 @@ show_sidebar: false
 <section class="proof-strip-section">
   <div class="proof-strip">
     <div class="proof-strip__item">
-      <p class="proof-strip__value">2x</p>
-      <p class="proof-strip__label">Confianza del Consumidor</p>
+      <p class="proof-strip__value">Sin licencias</p>
+      <p class="proof-strip__label">por usuario — Odoo Community</p>
     </div>
     <div class="proof-strip__item">
-      <p class="proof-strip__value">+20</p>
-      <p class="proof-strip__label">Empresas implementadas</p>
+      <p class="proof-strip__value">Localización EC</p>
+      <p class="proof-strip__label">facturación electrónica ante el SRI</p>
     </div>
     <div class="proof-strip__item">
-      <p class="proof-strip__value"><span class="label-mono">Python</span> <span class="label-mono">PostgreSQL</span></p>
-      <p class="proof-strip__label">Stack técnico</p>
+      <p class="proof-strip__value">Código abierto</p>
+      <p class="proof-strip__label">sin lock-in de proveedor</p>
     </div>
   </div>
 </section>
@@ -102,7 +103,25 @@ show_sidebar: false
   <div class="container">
     <div class="home-context__grid">
       <h2>¿Por qué Accioma?</h2>
-      <p>Somos una consultora técnica con sede en Quito, Ecuador. Entendemos los procesos locales, <strong>las necesidades de las pymes ecuatorianas</strong> y los retos de crecer con tecnología. No vendemos licencias: construimos soluciones que funcionan.</p>
+      <p>Somos una consultora con sede en Quito. Trabajamos con dueños de ferreterías, distribuidoras, importadoras y talleres que ya no logran cuadrar el inventario a mano, no saben con certeza cuánto deja cada producto y pierden ventas cuando nadie contesta el WhatsApp a tiempo. Implementamos <strong>Odoo Community con localización ecuatoriana</strong> y automatizamos lo repetitivo, sin cobrarte una licencia por cada persona que use el sistema.</p>
     </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <h2 class="title is-4">Del blog</h2>
+    <div class="columns is-multiline">
+      {% for post in site.posts limit:3 %}
+      <div class="column is-4">
+        <div class="box h-100">
+          <p class="is-size-7 has-text-grey mb-2">{{ post.date | date: "%d/%m/%Y" }}</p>
+          <p class="title is-6"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></p>
+          {% if post.subtitle %}<p class="is-size-7 has-text-grey">{{ post.subtitle }}</p>{% endif %}
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+    <a href="{{ '/blog/' | relative_url }}" class="button is-primary is-small mt-4">Ver todo el blog →</a>
   </div>
 </section>
