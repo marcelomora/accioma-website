@@ -1,0 +1,32 @@
+<!--
+  ProfessionalService structured data (site-wide).
+  TODO: necesita dato real — completar y añadir al JSON de abajo:
+    - streetAddress (dirección de calle en Quito)
+    - postalCode
+    - telephone (formato E.164, p. ej. +593...)
+    - sameAs: URLs de perfiles oficiales (LinkedIn, Facebook, Instagram, Google Business Profile)
+    - geo (latitude / longitude) si se quiere afinar el pin del mapa
+-->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ProfessionalService",
+  "name": {{ site.title | jsonify }},
+  "description": {{ site.description | strip_newlines | strip | jsonify }},
+  "url": {{ site.url | append: '/' | jsonify }},
+  "image": {{ site.url | append: site.image | jsonify }},
+  "logo": {{ site.url | append: '/img/logo.png' | jsonify }},
+  "email": {{ site.email | jsonify }},
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Quito",
+    "addressRegion": "Pichincha",
+    "addressCountry": "EC"
+  },
+  "areaServed": [
+    { "@type": "Country", "name": "Ecuador" },
+    { "@type": "City", "name": "Quito" }
+  ],
+  "knowsLanguage": ["es"]
+}
+</script>

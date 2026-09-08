@@ -1,14 +1,15 @@
 # Site Settings
-lang: en
+lang: es-EC
 title: Accioma
 tagline: Soluciones Digitales
 email: marcelo.mora@accioma.com
 description: >
-  Accioma — Consultora digital en Quito, Ecuador. Especialistas en implementación de Odoo ERP,
-  desarrollo a medida en Python y Facturación Electrónica SRI.
+  Consultora digital en Quito, Ecuador. Implementamos Odoo Community con localización
+  ecuatoriana, automatizamos WhatsApp con IA y desarrollamos software a medida para pymes.
+image: /img/og-default.jpg
 baseurl: ""
 # baseurl: "/bulma-clean-theme"
-url: "https://accioma.com"
+url: "https://www.accioma.com"
 permalink: pretty
 #favicon: /path/to/favicon.png
 #gh_sponsor: marcelomora
@@ -65,6 +66,7 @@ defaults:
       type: "pages"
     values:
       show_sidebar: true
+      image: /img/og-default.jpg
   -
     scope:
       path: ""
