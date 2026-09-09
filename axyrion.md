@@ -43,6 +43,6 @@ Odoo Community no cobra una licencia por cada persona que usa el sistema. Con Ax
 
 No somos partner de Odoo ni revendemos Odoo Enterprise. Trabajamos con la edición Community, de código abierto, y lo decimos claro: preferimos que sepas exactamente sobre qué está construido lo que usas.
 
-¿Empezaste una implementación de Odoo con otro proveedor y quedó detenida? Ver **[Rescate de implementación de ERP](/servicios/rescate-erp/)**.
+¿Empezaste una implementación de Odoo con otro proveedor y quedó detenida? Ver **[Rescate de implementación ERP](/servicios/rescate-erp/)**.
 
 [Agendar diagnóstico gratuito (30 min) →](/contacto/){:.button.is-primary}

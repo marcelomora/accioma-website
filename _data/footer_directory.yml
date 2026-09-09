@@ -6,13 +6,15 @@
       link: /servicios/presencia-digital/
     - name: WhatsApp y Reseñas
       link: /servicios/presencia-digital/
-- title: Automatización e IA
+- title: Automatización, IA y desarrollo
   links:
     - name: Automatización de procesos
       link: /servicios/automatizacion-ia/
     - name: WhatsApp con IA
       link: /servicios/automatizacion-ia/
     - name: Agentes de IA
+      link: /servicios/automatizacion-ia/
+    - name: Desarrollo a medida
       link: /servicios/automatizacion-ia/
 - title: Odoo y Axyrion
   links:
@@ -22,8 +24,6 @@
       link: /servicios/rescate-erp/
     - name: Axyrion
       link: /axyrion/
-    - name: Desarrollo a medida
-      link: /servicios/desarrollo-medida/
 - title: Accioma
   links:
     - name: Quito, Ecuador

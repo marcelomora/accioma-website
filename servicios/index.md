@@ -34,13 +34,6 @@ Accioma te ayuda a crecer mediante un enfoque integral: desde asegurar que los c
   </div>
   <div class="column is-6">
     <div class="box h-100">
-      <p class="title is-5"><i class="fas fa-robot mr-2" style="color:#00A86B"></i>Automatización e IA</p>
-      <p>Convierte WhatsApp en un vendedor 24/7 y automatiza tus procesos de ventas, alertas y seguimiento con agentes de IA.</p>
-      <a href="/servicios/automatizacion-ia/" class="button is-primary is-small mt-4">Ver detalle</a>
-    </div>
-  </div>
-  <div class="column is-6">
-    <div class="box h-100">
       <p class="title is-5"><i class="fas fa-box mr-2" style="color:#00A86B"></i>Axyrion</p>
       <p>Nuestra plataforma de gestión para pymes, construida sobre Odoo Community y ya localizada para Ecuador. La base configurada, lista para arrancar.</p>
       <a href="/axyrion/" class="button is-primary is-small mt-4">Ver detalle</a>
@@ -48,9 +41,9 @@ Accioma te ayuda a crecer mediante un enfoque integral: desde asegurar que los c
   </div>
   <div class="column is-6">
     <div class="box h-100">
-      <p class="title is-5"><i class="fas fa-code mr-2" style="color:#00A86B"></i>Desarrollo a Medida</p>
-      <p>Módulos personalizados, aplicaciones móviles e integraciones de sistemas para resolver las necesidades específicas de tu empresa.</p>
-      <a href="/servicios/desarrollo-medida/" class="button is-primary is-small mt-4">Ver detalle</a>
+      <p class="title is-5"><i class="fas fa-robot mr-2" style="color:#00A86B"></i>Automatización, IA y desarrollo a medida</p>
+      <p>Automatiza lo repetitivo, delega decisiones sencillas a agentes de IA y, cuando lo estándar no alcanza, desarrolla módulos, apps e integraciones sobre tus propios procesos.</p>
+      <a href="/servicios/automatizacion-ia/" class="button is-primary is-small mt-4">Ver detalle</a>
     </div>
   </div>
 </div>

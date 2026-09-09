@@ -1,35 +1,53 @@
 ---
-title: Automatización e IA
-subtitle: Convierte WhatsApp en tu mejor vendedor y automatiza tareas repetitivas.
+title: Automatización, IA y desarrollo a medida
+heading: Automatización y desarrollo sobre tus propios procesos
+subtitle: Que tu operación trabaje sola donde hoy hay trabajo manual — de automatizaciones simples a desarrollo a medida.
+description: Automatizamos tareas repetitivas, implementamos agentes de IA y desarrollamos módulos, apps e integraciones sobre los procesos propios de tu empresa. Diagnóstico gratuito.
 layout: page
 hero_height: is-medium
 show_sidebar: false
+redirect_from:
+  - /servicios/desarrollo-medida/
 ---
 
-## WhatsApp para Negocios
-No te vendemos "un chatbot". Te ayudamos a **convertir WhatsApp en un vendedor que trabaja 24/7**.
-- **Automatización de respuestas:** atención inmediata sin esperas.
-- **Catálogos y captura de leads:** muestra tus productos y obtén datos de clientes potenciales.
-- **Preguntas frecuentes y reservas:** gestiona citas y consultas automáticamente.
-- **Seguimiento de clientes** y recordatorios.
-- **Integración fluida** con Google Sheets, CRM o tu ERP (Axyrion u Odoo).
+## Primero integrado, después esto
 
-## Automatización de Procesos
-Aprovechamos nuestra profunda experiencia técnica para conectar tus herramientas y ahorrarte horas de trabajo manual. Podemos automatizar:
-- Transferencia de **leads hacia tus vendedores**.
-- Conexión de **WhatsApp o Formularios a tu CRM**.
-- Envío automático de **pedidos y facturas a tu ERP (Axyrion u Odoo)**.
-- Alertas de **inventario** y notificaciones clave.
-- Tareas repetitivas y generación de reportes automáticos.
+Cuando tus ventas, tu inventario, tus compras y tu facturación viven en un solo sistema, el siguiente paso es que ese sistema **trabaje solo** donde hoy alguien copia datos, revisa a mano o responde lo mismo diez veces al día.
 
-## Agentes de IA (El Futuro de tu Negocio)
-Implementamos agentes inteligentes que trabajan junto a tu equipo.
-Por ejemplo, nuestro **Agente de Ventas**:
+Es una sola capacidad aplicada a distinta profundidad: automatizar lo repetitivo, delegar decisiones sencillas a un agente de IA y, cuando lo estándar no alcanza, desarrollar sobre los procesos propios de tu empresa.
+
+## Automatizar lo repetitivo
+
+Conectamos las herramientas que ya usas para ahorrar horas de trabajo manual cada semana:
+
+- **WhatsApp que responde solo:** atención inmediata, catálogo, preguntas frecuentes y captura de datos del cliente sin que nadie esté pendiente.
+- **Leads que llegan al vendedor correcto** desde WhatsApp o formularios, sin pasar por una hoja de cálculo intermedia.
+- **Pedidos y facturas que entran directo a tu ERP** (Odoo o Axyrion, nuestra plataforma de gestión sobre Odoo Community), sin volver a digitar.
+- **Alertas de inventario y de cobros** cuando algo se pasa de un umbral.
+- **Reportes que se arman y se envían solos** en lugar de prepararse cada lunes.
+
+## Agentes de IA
+
+Un paso más adentro: agentes que no solo ejecutan una regla fija, sino que revisan datos y proponen la siguiente acción.
+
+Nuestro **Agente de Ventas**, por ejemplo:
+
 - Encuentra oportunidades olvidadas en tu base de datos.
 - Identifica clientes sin seguimiento reciente.
-- Prioriza leads según su probabilidad de cierre.
-- Prepara mensajes sugeridos y ayuda al vendedor a recuperar oportunidades (ideal para reconectar ventas enfriadas en tu CRM, Axyrion u Odoo).
+- Prioriza según probabilidad de cierre.
+- Prepara el mensaje sugerido para que el vendedor solo revise y envíe.
 
-*Más adelante:* Agentes para inventario, operaciones, atención al cliente y cobranzas.
+*Más adelante:* agentes para inventario, operaciones, atención al cliente y cobranzas.
 
-[Automatizar mis procesos hoy](/contacto/){:.button.is-primary}
+## Desarrollo sobre tus propios procesos
+
+Cuando el software estándar no cubre cómo trabaja tu empresa, desarrollamos:
+
+- **Módulos a medida** para tu ERP, sea una instalación propia de Odoo Community o Axyrion.
+- **Aplicaciones móviles** conectadas a tu operación, para tus clientes o para tu equipo en la calle.
+- **Integraciones** entre sistemas heredados, bases de datos y plataformas modernas mediante APIs en Python.
+- **Sistemas desde cero** para un proceso que no se parece a nada empaquetado.
+
+No desarrollamos por desarrollar: cada módulo resuelve un cuello de botella concreto o abre una ventaja que el estándar no da.
+
+[Agendar diagnóstico gratuito (30 min) →](/contacto/){:.button.is-primary}

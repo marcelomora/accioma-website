@@ -365,3 +365,7 @@
   color: $ink-secondary;
   line-height: 1.7;
 }
+
+.home-context__grid p + p {
+  margin-top: 1.25rem;
+}

@@ -1,6 +1,6 @@
 ---
-title: Odoo, automatización e IA para pymes en Quito
-description: Consultora digital en Quito. Implementamos Odoo Community con localización ecuatoriana, automatizamos WhatsApp con IA y desarrollamos a medida para pymes. Diagnóstico gratuito.
+title: Odoo, automatización e IA para empresas en Ecuador
+description: Consultora digital en Quito. Implementamos Odoo Community con localización ecuatoriana, automatizamos WhatsApp con IA y desarrollamos a medida para empresas. Diagnóstico gratuito.
 subtitle: "No solo digitalizamos tu empresa: te acompañamos hasta que tu operación funcione sola."
 layout: home
 show_sidebar: false
@@ -12,7 +12,7 @@ show_sidebar: false
   </div>
   <div class="container home-hero__grid home-hero__grid--single">
     <div class="home-hero__copy">
-      <h1 class="home-hero__title">Automatizamos la operación de tu pyme en Ecuador</h1>
+      <h1 class="home-hero__title">Automatizamos la operación de tu empresa en Ecuador</h1>
       <p class="home-hero__subtitle">{{ page.subtitle }}</p>
       <div class="home-hero__actions">
         <a href="{{ '/contacto/' | relative_url }}" class="button is-primary is-medium">Agendar diagnóstico gratuito (30 min) →</a>
@@ -51,33 +51,30 @@ show_sidebar: false
   <div class="pillar-grid">
     <article class="pillar">
       <p class="pillar__number">01</p>
-      <h2 class="pillar__title">Que te encuentren</h2>
+      <h2 class="pillar__title">Visible</h2>
       <ul class="pillar__list">
-        <li>Aparecer en Google Maps cuando alguien busca lo que vendes</li>
-        <li>Reseñas de clientes con tarjeta NFC o código QR</li>
-        <li>WhatsApp y una página web que sí traen contactos</li>
+        <li><strong>Presencia digital:</strong> Google Maps, reseñas, sitio web y WhatsApp</li>
+        <li>Que te encuentren cuando buscan lo que vendes</li>
       </ul>
       <a href="{{ '/servicios/presencia-digital/' | relative_url }}" class="pillar__cta">Ver Presencia Digital →</a>
     </article>
     <article class="pillar">
       <p class="pillar__number">02</p>
-      <h2 class="pillar__title">Que no se te escape nada</h2>
+      <h2 class="pillar__title">Integrado</h2>
       <ul class="pillar__list">
-        <li>Responder en WhatsApp al instante, a toda hora</li>
-        <li>Que los pedidos y las facturas dejen de pasarse a mano</li>
-        <li>Agentes de IA que retoman los clientes que quedaron sin seguimiento</li>
+        <li><strong>Odoo Community</strong> localizado para Ecuador — sin licencias por usuario</li>
+        <li>Ventas, inventario, compras y facturación en un solo sistema</li>
       </ul>
-      <a href="{{ '/servicios/automatizacion-ia/' | relative_url }}" class="pillar__cta">Ver Automatización e IA →</a>
+      <a href="{{ '/servicios/odoo/' | relative_url }}" class="pillar__cta">Ver implementación de Odoo →</a>
     </article>
     <article class="pillar">
       <p class="pillar__number">03</p>
-      <h2 class="pillar__title">Que tengas control</h2>
+      <h2 class="pillar__title">Personalizado</h2>
       <ul class="pillar__list">
-        <li>Odoo Community implementado y localizado para Ecuador — sin licencias por usuario</li>
-        <li>Saber qué tienes en bodega y cuánto deja cada producto</li>
-        <li>Ventas, inventario y contabilidad en un solo sistema</li>
+        <li><strong>Automatización, IA y desarrollo a medida</strong> sobre tus propios procesos</li>
+        <li>Que el sistema se adapte a ti, no al revés</li>
       </ul>
-      <a href="{{ '/servicios/odoo/' | relative_url }}" class="pillar__cta">Ver implementación de Odoo →</a>
+      <a href="{{ '/servicios/automatizacion-ia/' | relative_url }}" class="pillar__cta">Ver Automatización e IA →</a>
     </article>
   </div>
 </section>
@@ -103,7 +100,9 @@ show_sidebar: false
   <div class="container">
     <div class="home-context__grid">
       <h2>¿Por qué Accioma?</h2>
-      <p>Somos una consultora con sede en Quito. Trabajamos con dueños de ferreterías, distribuidoras, importadoras y talleres que ya no logran cuadrar el inventario a mano, no saben con certeza cuánto deja cada producto y pierden ventas cuando nadie contesta el WhatsApp a tiempo. Implementamos <strong>Odoo Community con localización ecuatoriana</strong> y automatizamos lo repetitivo, sin cobrarte una licencia por cada persona que use el sistema.</p>
+      <p>Somos una consultora técnica con sede en Quito. Trabajamos con dueños de ferreterías, distribuidoras, importadoras y talleres que ya no logran cuadrar el inventario a mano, que no saben con certeza cuánto deja cada producto y que pierden ventas cuando nadie contesta el WhatsApp a tiempo.</p>
+      <p>Implementamos <strong>Odoo Community con localización ecuatoriana</strong> y automatizamos lo repetitivo. Sin cobrarte una licencia por cada persona que use el sistema.</p>
+      <p>Lo hacemos en tres etapas y en ese orden: <strong>Visible</strong>, que te encuentren; <strong>Integrado</strong>, que todo converse en un solo sistema —eso es Axyrion, nuestra plataforma sobre Odoo Community—; <strong>Personalizado</strong>, que se adapte a ti.</p>
     </div>
   </div>
 </section>

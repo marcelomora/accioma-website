@@ -35,7 +35,7 @@ Implementar Odoo bien no es "instalar un programa". Es ordenar cómo compras, c�
 
 Si quieres una implementación armada a la medida de tu operación desde cero, trabajamos directamente sobre Odoo Community. Si prefieres partir de una base ya configurada y localizada para Ecuador, esa versión se llama **[Axyrion](/axyrion/)** — nuestra plataforma construida sobre Odoo Community.
 
-¿Ya empezaste una implementación de Odoo con otro consultor y quedó a medias? Revisa **[Rescate de implementación de ERP](/servicios/rescate-erp/)**.
+¿Ya empezaste una implementación de Odoo con otro consultor y quedó a medias? Revisa **[Rescate de implementación ERP](/servicios/rescate-erp/)**.
 
 [Agendar diagnóstico gratuito (30 min) →](/contacto/){:.button.is-primary}
 
